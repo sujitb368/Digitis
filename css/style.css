@@ -84,6 +84,7 @@ nav{
 }
 .mt{
     margin-top: 100px;
+    
 }
 
 .mobile{
@@ -122,6 +123,7 @@ nav{
     text-decoration: none;
     list-style: none;
     padding: 25px;
+    cursor: pointer;
 }
 
 .heder_text{
@@ -568,7 +570,7 @@ padding-top: 20px;
     }
     .nav_right{
         min-width: 25%;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 50px;
+       
     }
 }
