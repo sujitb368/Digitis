@@ -50,7 +50,7 @@ window.onscroll = function(){
 var tl = gsap.timeline({
     scrollTrigger: {
         trigger: ".simplicity_animation",  
-        start: "top 45%", 
+        start: "top 60%", 
         // ease: "power1.inOut"
         // end: "+=500", 
         // markers:true
@@ -60,15 +60,15 @@ var tl = gsap.timeline({
 });
 
 tl.from(".simplicity_animation", {
-    y:50,
+    y:100,
     // duration:1,
     stagger:0.2,
-    opacity:1
+   opacity:0
 }  )
 .from(".simplicity_img",{
-    y:50,
-    opacity:1,
-    duration:1,
+    y:70,
+   opacity:0,
+    // duration:1,
 })
 
 
@@ -78,7 +78,7 @@ gsap.from(".left_img",{
     // scrollTrigger: ".left_img",
     scrollTrigger: {
         trigger: ".left_img",  
-        start: "top 55%", 
+        start: "top 60%", 
         // end: "+=300", 
         // markers:true
         
@@ -86,13 +86,13 @@ gsap.from(".left_img",{
     duration: .6,
     x: -50,
  
-    opacity:1
+    opacity:0
 })
 gsap.from(".right_content", {
     
     scrollTrigger: {
         trigger: ".right_content",  
-        start: "top 55%", 
+        start: "top 60%", 
         // end: "+=300", 
         // markers:true
         
@@ -100,22 +100,22 @@ gsap.from(".right_content", {
     duration: .6,
     x: 100,
     
-    opacity:1
+    opacity:0
 })
 gsap.from(".testimonial_container > *", {
     // scrollTrigger: ".testimonial_container > *",
     scrollTrigger: {
         trigger: ".testimonial_container > *",  
-        start: "top 75%", 
+        start: "top 65%", 
         // end: "+=500", 
         // markers:true,
      
         
     } ,
     
-    y:100,
+    y:50,
     stagger:0.2,
-    opacity:1
+    opacity:0
 });
 
 
